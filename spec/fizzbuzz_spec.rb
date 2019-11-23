@@ -1,9 +1,9 @@
 require 'fizzbuzz'
 
 describe 'fizzbuzz' do 
-  it 'returns "fizz" when passed 3' do 
-   expect(fizzbuzz(3)).to eq 'fizz' 
- end 
+  # it 'returns "fizz" when passed 3' do 
+   # expect(fizzbuzz(3)).to eq 'fizz' 
+ # end 
  
  it 'returns "buzz" when passed 5' do  
    expect(fizzbuzz(5)).to eq 'buzz'
@@ -16,4 +16,13 @@ describe 'fizzbuzz' do
  it 'returns "8" when passed 8' do
    expect(fizzbuzz(8)).to eq "8"
  end 
+ 
+ it ' returns "fizz" when passed a number that is divisible by 3 but not divisible by 5' do
+   expect(fizzbuzz(12)).to eq "fizz"
+ end 
+
+
+ 
+ 
+ 
 end
