@@ -1,18 +1,7 @@
-# Tests for FizzBuzz
-
 require 'fizzbuzz'
 
-describe FizzBuzz do
-  it 'returns "Fizz" if passed 3' do
-  expect(fizzbuzzing(3)).to eq "Fizz"
-  end
-  
-
-
-    
-    
-    
-    
-    
-    
+describe 'fizzbuzz' do 
+  it 'returns "fizz" when passed 3' do 
+   expect(fizzbuzz(3)).to eq 'fizz' 
+ end 
 end
